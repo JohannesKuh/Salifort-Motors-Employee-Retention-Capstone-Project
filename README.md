@@ -1,4 +1,4 @@
-# salifort-motors-employee-retention-capstone-project
+# Salifort Motors - Employee Retention Analysis
 Predicting employee turnover at Salifort Motors - Capstone project for the Google Advanced Data Analytics Certificate 
 
 ## Project Overview
