@@ -37,14 +37,14 @@ build a model to predict attrition, enabling proactive retention efforts.
 - Evaluation: F1 score, precision, recall, confusion matrix
 
 ## Key Results
-- Champion model: [your model] with F1 = [your score]
-- Top predictors: [e.g. satisfaction level, number of projects, tenure]
+- Champion model: Random Forest with F1 = 0.95 on the test set
+- Top predictors: satisfaction level, number of projects, tenure, average monthly hours, last evaluation
 
 ## Tools
 Python, pandas, scikit-learn, XGBoost, seaborn, matplotlib, MLflow, Claude (Anthropic)
 
 ## Final remarks
-- Dataset is part of the Advanced Data Analytics Certificate on Coursera, publicly available on Kaggle (see link in upload details)
+- Dataset is part of the Advanced Data Analytics Certificate on Coursera, publicly available on Kaggle (see link in file details)
 - AI assistance provided by Claude (Anthropic) for code guidance, interpretation refinement and documentation support
 
 ## File Structure
