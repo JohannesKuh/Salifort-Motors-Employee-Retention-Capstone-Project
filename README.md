@@ -41,7 +41,12 @@ build a model to predict attrition, enabling proactive retention efforts.
 - Top predictors: [e.g. satisfaction level, number of projects, tenure]
 
 ## Tools
-Python, pandas, scikit-learn, XGBoost, seaborn, matplotlib
+Python, pandas, scikit-learn, XGBoost, seaborn, matplotlib, MLflow, Claude (Anthropic)
+
+## Final remarks
+- Dataset is part of the Advanced Data Analytics Certificate on Coursera, provided by Kaggle
+- AI assistance provided by Claude (Anthropic) for code guidance, 
+  interpretation refinement and documentation support
 
 ## File Structure
 ├── salifort_capstone.ipynb   # Main analysis notebook
