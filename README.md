@@ -43,7 +43,7 @@ build a model to predict attrition, enabling proactive retention efforts.
 ## Tools
 Python, pandas, scikit-learn, XGBoost, seaborn, matplotlib, MLflow, Claude (Anthropic)
 
-## Final remarks
+## Acknowledgements
 - Dataset is part of the Advanced Data Analytics Certificate on Coursera, publicly available on Kaggle (see Dataset > Link)
 - AI assistance provided by Claude (Anthropic) for code guidance, interpretation refinement and documentation support
 
