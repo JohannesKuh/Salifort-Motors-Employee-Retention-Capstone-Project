@@ -43,11 +43,21 @@ build a model to predict attrition, enabling proactive retention efforts.
 ## Tools
 Python, pandas, scikit-learn, XGBoost, seaborn, matplotlib, MLflow, Claude (Anthropic)
 
+## MLflow Experiment Tracking
+
+All experiments are tracked using MLflow 3.14 with a SQLite backend 
+persisted to Google Drive.
+
+| Run | F1 (Left) | Recall | Precision | Accuracy |
+|---|---|---|---|---|
+| Random Forest | 0.95 | 0.93 | 0.98 | 0.99 |
+| XGBoost | 0.95 | 0.93 | 0.97 | 0.98 |
+| Decision Tree | 0.94 | 0.93 | 0.95 | 0.98 |
+| Logistic Regression | 0.59 | 0.87 | 0.44 | 0.80 |
+
+![Model Registry](images/06_model_registry.png)
+![Random Forest Run](images/03_runs_random_forest.png)
+
 ## Acknowledgements
 - Dataset is part of the Advanced Data Analytics Certificate on Coursera, publicly available on Kaggle (see Dataset > Link)
 - AI assistance provided by Claude (Anthropic) for code guidance, interpretation refinement and documentation support
-
-## File Structure
-├── salifort_capstone.ipynb   # Main analysis notebook
-├── HR_capstone_dataset.csv   # Employee survey data
-└── README.md
