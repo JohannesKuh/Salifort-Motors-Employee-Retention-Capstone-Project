@@ -5,12 +5,13 @@ project for the Google Advanced Data Analytics Certificate (Google/Coursera, Jul
 
 ## Project Overview
 
-Analyzed HR survey data from 14,999 employees to predict voluntary employee 
-turnover using tree-based machine learning models. The analysis covers the 
+The analysis was based on HR survey data from 14,999 employees to predict voluntary employee 
+turnover using tree-based machine learning models. It covers the 
 full data science pipeline from exploratory data analysis to model deployment 
 and practical business application.
 
 **Key steps:**
+
 - Exploratory Data Analysis (EDA) to identify drivers of attrition
 - Preprocessing including encoding, outlier treatment and train/val/test split
 - Four models trained and compared: Logistic Regression, Decision Tree, 
@@ -22,9 +23,9 @@ and practical business application.
 
 ## Business Problem
 
-Senior leadership at Salifort Motors wanted to understand why employees leave 
-and build a model to predict attrition, enabling proactive retention efforts 
-before employees decide to resign.
+Senior mangement at Salifort Motors - a fictive company - wanted to understand why employees leave. 
+Therefore, the HR department provided a dataset to build a model with high predictive power 
+for employee attrition, enabling proactive retention efforts before employees decide to resign.
 
 ## Dataset
 
@@ -58,11 +59,48 @@ before employees decide to resign.
 
 ## Key Results
 
-- **Champion model: Random Forest** with F1 = **0.96 on the unseen test set**
-- Only **30 false negatives** (missed leavers) and **4 false positives** 
-  out of 2,399 employees
-- **Top predictors:** satisfaction level (0.35), number of projects (0.19), 
-  tenure (0.17), average monthly hours (0.16), last evaluation (0.13)
+- Four classification models were trained and evaluated: Logistic Regression, 
+Decision Tree, Random Forest and XGBoost. The results revealed a clear 
+performance gap between Logistic Regression and the three tree-based models, 
+confirming that attrition is driven by non-linear patterns that linear models 
+cannot capture effectively.
+
+- Although Random Forest and XGBoost achieved identical F1 scores (0.95) on 
+the validation set, **Random Forest was selected as the champion model** due 
+to its higher precision (0.98 vs 0.97) — meaning fewer unnecessary HR 
+interventions for employees who are not actually at risk of leaving.
+
+- The champion model achieves an F1 score of **0.96 on the unseen test set**, 
+correctly identifying 368 out of 398 employees who left with only **30 false 
+negatives** (missed leavers) and **4 false positives** out of 2,399 employees. 
+The model provides HR and management with a precise tool to identify 
+employees at risk of leaving and take proactive retention measures.
+
+### Champion Model — Confusion Matrix (Test Set)
+![Confusion Matrix](images/confusion_matrix_test.png)
+
+## Practical Model Usage
+
+The champion model can be used by HR or line managers after annual appraisal 
+interviews to assess attrition risk for employees in key positions. By entering 
+data collected during or after the interview, the model generates a probability 
+of leaving and a recommended action.
+
+### Risk Profile Examples
+
+| Profile | Satisfaction | Evaluation | Projects | Avg Monthly Hours | Tenure | Probability of Leaving | Risk Level |
+|---|---|---|---|---|---|---|---|
+| 🟢 Low Risk | 0.45 | 0.85 | 6 | 255 | 4 | 19.7% | Low |
+| 🟡 Medium Risk | 0.35 | 0.85 | 7 | 250 | 4 | 47.2% | Medium |
+| 🔴 High Risk | 0.10 | 0.85 | 6 | 270 | 4 | 98.8% | High |
+
+Changing just two values — satisfaction level from 0.45 to 0.10 and average 
+monthly hours from 255 to 270 — shifts the attrition probability from 19.7% 
+to 98.8%, demonstrating how sensitively the model responds to the combination 
+of low satisfaction and excessive workload.
+
+> **Note:** Model outputs should support, not replace, direct manager 
+> communication and HR decision-making.
 
 ### Key EDA Insights
 - Employees who left had significantly lower mean satisfaction (0.44 vs 0.67)
