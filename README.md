@@ -79,6 +79,9 @@ employees at risk of leaving and take proactive retention measures.
 ### Champion Model — Confusion Matrix (Test Set)
 ![Confusion Matrix](images/confusion_matrix_test.png)
 
+### Feature Importances
+![Feature Importances](images/feature_importances.png)
+
 ## Practical Model Usage
 
 The champion model can be used by HR or line managers after annual appraisal 
@@ -101,14 +104,6 @@ of low satisfaction and excessive workload.
 
 > **Note:** Model outputs should support, not replace, direct manager 
 > communication and HR decision-making.
-
-### Key EDA Insights
-- Employees who left had significantly lower mean satisfaction (0.44 vs 0.67)
-- All 145 employees with 7 projects left — burnout-driven attrition
-- Three distinct leaver profiles: underworked & dissatisfied, overworked & 
-  burned out, overworked but satisfied
-- All leavers had a maximum tenure of 6 years — years 3–5 are the most 
-  critical retention window
 
 ## MLflow Experiment Tracking
 
