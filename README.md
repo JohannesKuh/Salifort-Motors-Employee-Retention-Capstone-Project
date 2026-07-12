@@ -31,8 +31,7 @@ for employee attrition, enabling proactive retention efforts before employees de
 
 - Source: `HR_comma_sep.csv`
 - Link: [Kaggle HR Analytics Job Prediction](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction)
-- 11,991 unique records after duplicate removal (original: 14,999 rows)
-- 10 features
+- Raw data URL: `https://raw.githubusercontent.com/JohannesKuh/Salifort-Motors-Employee-Retention-Capstone-Project/main/HR_comma_sep.csv`
 
 | Variable | Description |
 |---|---|
