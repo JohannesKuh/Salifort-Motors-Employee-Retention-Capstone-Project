@@ -6,7 +6,7 @@ project for the Google Advanced Data Analytics Certificate (Google/Coursera, Jul
 ## Project Overview
 
 The analysis was based on HR survey data from 14,999 employees to predict voluntary employee 
-turnover using tree-based machine learning models. It covers the 
+turnover using Logistic Regression and three tree-based models. It covers the 
 full data science pipeline from exploratory data analysis to model deployment 
 and practical business application.
 
@@ -84,6 +84,18 @@ interventions for employees who are not actually at risk of leaving.
   predictor, `number_project` (0.19) — workload breadth, `tenure` (0.17) — 
   time at company, `average_monthly_hours` (0.16) — workload intensity, 
   `last_evaluation` (0.13) — performance signal.
+
+### Model Comparison (Validation Set)
+
+| Model | F1 (Left) | Recall (Left) | Precision (Left) | Accuracy |
+|---|---|---|---|---|
+| Logistic Regression | 0.59 | 0.87 | 0.44 | 0.80 |
+| Decision Tree | 0.94 | 0.93 | 0.95 | 0.98 |
+| **Random Forest** | **0.95** | **0.93** | **0.98** | **0.98** |
+| XGBoost | 0.95 | 0.93 | 0.97 | 0.98 |
+
+*Champion model selected based on highest precision (0.98) — minimizing 
+unnecessary HR interventions.*
 
 ### Champion Model — Confusion Matrix (Test Set)
 ![Confusion Matrix](images/confusion_matrix_test.png)
