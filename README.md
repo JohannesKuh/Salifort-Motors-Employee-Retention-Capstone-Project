@@ -49,6 +49,10 @@ for employee attrition, enabling proactive retention efforts before employees de
 
 ## Approach
 
+EDA findings directly informed preprocessing and modeling decisions — 
+non-linear patterns discovered during EDA motivated the choice of 
+tree-based models over linear approaches.
+
 1. **EDA** — correlation heatmap, satisfaction analysis, workload deep dive, 
    tenure analysis and department analysis
 2. **Preprocessing** — ordinal encoding for salary, one-hot encoding for 
@@ -71,16 +75,30 @@ to its higher precision (0.98 vs 0.97) — meaning fewer unnecessary HR
 interventions for employees who are not actually at risk of leaving.
 
 - The champion model achieves an F1 score of **0.96 on the unseen test set**, 
-correctly identifying 368 out of 398 employees who left with only **30 false 
-negatives** (missed leavers) and **4 false positives** out of 2,399 employees. 
-The model provides HR and management with a precise tool to identify 
-employees at risk of leaving and take proactive retention measures.
+  correctly identifying 368 out of 398 employees who left with only **30 false 
+  negatives** (missed leavers) and **4 false positives** out of 2,399 employees. 
+  The model provides HR and management with a precise tool to identify 
+  employees at risk of leaving and take proactive retention measures.
+
+- The **top 5 features account for approximately 97% of predictive power**, 
+  fully consistent with EDA findings: `satisfaction_level` (0.35) — dominant 
+  predictor, `number_project` (0.19) — workload breadth, `tenure` (0.17) — 
+  time at company, `average_monthly_hours` (0.16) — workload intensity, 
+  `last_evaluation` (0.13) — performance signal.
 
 ### Champion Model — Confusion Matrix (Test Set)
 ![Confusion Matrix](images/confusion_matrix_test.png)
 
 ### Feature Importances
 ![Feature Importances](images/feature_importances.png)
+
+### Key EDA Insights
+- Employees who left had significantly lower mean satisfaction (0.44 vs 0.67)
+- All 145 employees with 7 projects left — a clear burnout signal
+- Three distinct leaver profiles identified: underworked & dissatisfied, 
+  overworked & burned out, and overworked but satisfied
+- All leavers had a maximum tenure of 6 years — years 3–5 are the 
+  most critical retention window
 
 ## Practical Model Usage
 
