@@ -160,12 +160,13 @@ persisted to Google Drive.
 
 ## Tools & Technologies
 
-Python, pandas, scikit-learn, XGBoost, seaborn, matplotlib, MLflow, 
-Claude (Anthropic)
+Python, pandas, NumPy, scikit-learn, XGBoost, seaborn, matplotlib, 
+MLflow, pyngrok, Claude (Anthropic)
 
 ## Acknowledgements
 
 - Dataset provided as part of the Google Advanced Data Analytics Certificate 
   on Coursera, publicly available on Kaggle (see Dataset section for link)
+- Certificate: [Google Advanced Data Analytics Certificate](https://coursera.org/share/4624c99a3e0ecb1d77fb8e7a229f3018)
 - AI assistance provided by Claude (Anthropic) for code guidance, 
   interpretation refinement and documentation support
