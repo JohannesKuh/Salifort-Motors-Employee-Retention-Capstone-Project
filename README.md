@@ -150,10 +150,13 @@ persisted to Google Drive.
 ![Random Forest Run](images/03_runs_random_forest.png)
 
 ## File Structure
+
+```
 ├── salifort_capstone.ipynb    # Main analysis notebook
 ├── HR_comma_sep.csv           # Employee survey data
 ├── images/                    # MLflow UI screenshots
 └── README.md
+```
 
 ## Tools & Technologies
 
