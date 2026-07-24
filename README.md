@@ -170,3 +170,7 @@ MLflow, pyngrok, Claude (Anthropic)
 - Certificate: [Google Advanced Data Analytics Certificate](https://coursera.org/share/4624c99a3e0ecb1d77fb8e7a229f3018)
 - AI assistance provided by Claude (Anthropic) for code guidance, 
   interpretation refinement and documentation support
+
+## License
+
+This repository's code is licensed under the MIT License (see LICENSE). The dataset (`HR_comma_sep.csv`) is sourced from [Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction) and released under [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/), placing no restrictions on its use or redistribution.
