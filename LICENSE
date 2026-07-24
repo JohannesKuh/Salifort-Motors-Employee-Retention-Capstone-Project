@@ -1,1 +1,3 @@
+## License
 
+This repository's code is licensed under the MIT License (see LICENSE). The dataset (`HR_comma_sep.csv`) is sourced from [Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction) and remains subject to Kaggle's own dataset terms and any license specified by the original uploader.
