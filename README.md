@@ -187,7 +187,7 @@ MLflow, pyngrok, Claude (Anthropic)
 
 - Dataset provided as part of the Google Advanced Data Analytics Certificate 
   on Coursera, publicly available on Kaggle (see Dataset section for link)
-- Certificate: [Google Advanced Data Analytics Certificate](https://coursera.org/share/4624c99a3e0ecb1d77fb8e7a229f3018)
+- Certificate: This project was completed as the capstone for the [Google Advanced Data Analytics Certificate](https://coursera.org/share/4624c99a3e0ecb1d77fb8e7a229f3018) 🎓 (Google/Coursera)
 - AI assistance provided by Claude (Anthropic) for code guidance, 
   interpretation refinement and documentation support
 
