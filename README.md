@@ -3,12 +3,32 @@
 Predicting voluntary employee turnover at Salifort Motors — Capstone 
 project for the Google Advanced Data Analytics Certificate (Google/Coursera, July 2026)
 
+## Executive Summary
+- Built a voluntary employee turnover prediction model on HR survey 
+  data from 14,999 employees (Kaggle)
+- Trained and compared four models (validation set): Logistic 
+  Regression, Decision Tree, Random Forest (F1 = 0.95, precision = 
+  0.98), and XGBoost (F1 = 0.95, precision = 0.97)
+- Selected Random Forest as the champion model (F1 = 0.96, 
+  precision = 0.99 on the unseen test set)
+- The top 5 features account for 97% of total feature importance — 
+  `satisfaction_level` (0.35) was the dominant predictor, consistent 
+  with EDA findings
+- Practical use case: HR or line managers can estimate attrition 
+  risk for employees following annual appraisals — adjusting two 
+  parameters shifted predicted risk from 19.7% to 98.8%
+- Business impact: with 99% precision, HR can act on flagged 
+  at-risk employees with minimal false alarms, enabling proactive 
+  retention measures and potentially saving costs, as replacing an 
+  employee costs 0.5–2× their annual salary 
+  ([Gallup](https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx))
+
 ## Project Overview
 
-The analysis was based on HR survey data from 14,999 employees to predict voluntary employee 
-turnover using Logistic Regression and three tree-based models. It covers the 
-full data science pipeline from exploratory data analysis to model deployment 
-and practical business application.
+This project covers the full data science pipeline, from exploratory data analysis
+to model deployment and practical business application. It uses HR survey data from
+14,999 employees to predict voluntary employee turnover with four models: Logistic 
+Regression, Decision Tree, Random Forest, and XGBoost.
 
 **Key steps:**
 
