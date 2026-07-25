@@ -21,7 +21,7 @@ project for the Google Advanced Data Analytics Certificate (Google/Coursera, Jul
   at-risk employees with minimal false alarms, enabling proactive 
   retention measures and potentially saving costs, as replacing an 
   employee costs 0.5-2x their annual salary 
-  ([Gallup](https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx))
+  ([Gallup](https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx), 2019)
 
 ## Project Overview
 
