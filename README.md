@@ -194,3 +194,8 @@ MLflow, pyngrok, Claude (Anthropic)
 ## License
 
 This repository's code is licensed under the MIT License (see LICENSE). The dataset (`HR_comma_sep.csv`) is sourced from [Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction) and released under [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/), placing no restrictions on its use or redistribution.
+
+## Author
+
+Johannes Kuhaupt, LL.M., PMP
+[LinkedIn](https://www.linkedin.com/in/johanneskuhaupt/) · [GitHub](https://github.com/JohannesKuh/)
