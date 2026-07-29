@@ -16,7 +16,7 @@ project for the Google Advanced Data Analytics Certificate (Google/Coursera, Jul
 This project covers the full data science pipeline, from exploratory data analysis
 to model deployment and practical business application. It uses HR survey data from
 14,999 employees to predict voluntary employee turnover with four models: Logistic 
-Regression, Decision Tree, Random Forest, and XGBoost.
+Regression, Decision Tree, Random Forest and XGBoost.
 
 **Key steps:**
 
@@ -115,7 +115,7 @@ unnecessary HR interventions.*
 - Employees who left had significantly lower mean satisfaction (0.44 vs 0.67)
 - All 145 employees with 7 projects left — a clear burnout signal
 - Three distinct leaver profiles identified: underworked & dissatisfied, 
-  overworked & burned out, and overworked but satisfied
+  overworked & burned out and overworked but satisfied
 - All leavers had a maximum tenure of 6 years — years 3–5 are the 
   most critical retention window
 
