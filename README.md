@@ -160,7 +160,7 @@ persisted to Google Drive.
 ## File Structure
 
 ```
-salifort-motors-employee-retention-capstone-project/
+Salifort-Motors-Employee-Retention-Capstone-Project/
 │
 ├── README.md
 ├── LICENSE                          # MIT (code only — dataset is CC0)
