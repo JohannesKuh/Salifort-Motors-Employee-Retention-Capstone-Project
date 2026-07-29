@@ -9,7 +9,7 @@ project for the Google Advanced Data Analytics Certificate (Google/Coursera, Jul
 - Selected Random Forest as the champion model (F1 = 0.96, precision = 0.99 on the unseen test set)
 - The top 5 features account for 97% of total feature importance — `satisfaction_level` (0.35) was the dominant predictor, consistent with EDA findings
 - Practical use case: HR or line managers can estimate attrition risk for employees following annual appraisals — adjusting two parameters shifted predicted risk from 19.7% to 98.8%
-- Business impact: with 99% precision, HR can act on flagged at-risk employees with minimal false alarms, enabling proactive retention measures and potentially saving costs, as replacing an employee costs 0.5-2x their annual salary ([Gallup 2019](https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx))
+- Business impact: with 99% precision, HR can act on flagged at-risk employees with minimal false alarms, enabling proactive retention measures and potentially saving costs, as replacing an employee costs 0.5-2x their annual salary ([Gallup, 2019](https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx))
 
 ## Project Overview
 
