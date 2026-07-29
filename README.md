@@ -5,7 +5,7 @@ project for the Google Advanced Data Analytics Certificate (Google/Coursera, Jul
 
 ## Executive Summary
 - Built a voluntary employee turnover prediction model on HR survey data from 14,999 employees (Kaggle)
-- Trained and compared four models (validation set): Logistic Regression, Decision Tree, Random Forest (F1 = 0.95, precision = 0.98), and XGBoost (F1 = 0.95, precision = 0.97)
+- Trained and compared four models (validation set): Logistic Regression, Decision Tree, Random Forest (F1 = 0.95, precision = 0.98) and XGBoost (F1 = 0.95, precision = 0.97)
 - Selected Random Forest as the champion model (F1 = 0.96, precision = 0.99 on the unseen test set)
 - The top 5 features account for 97% of total feature importance — `satisfaction_level` (0.35) was the dominant predictor, consistent with EDA findings
 - Practical use case: HR or line managers can estimate attrition risk for employees following annual appraisals — adjusting two parameters shifted predicted risk from 19.7% to 98.8%
