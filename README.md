@@ -160,10 +160,13 @@ persisted to Google Drive.
 ## File Structure
 
 ```
-├── salifort_capstone.ipynb    # Main analysis notebook
-├── HR_comma_sep.csv           # Employee survey data
-├── images/                    # MLflow UI screenshots
-└── README.md
+salifort-motors-employee-retention-capstone-project/
+│
+├── README.md
+├── LICENSE                          # MIT (code only — dataset is CC0)
+├── salifort_motors_capstone.ipynb   # Main analysis notebook
+├── HR_comma_sep.csv                 # Employee survey data
+└── images/                          # MLflow UI screenshots
 ```
 
 ## Tools & Technologies
